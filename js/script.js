@@ -19,9 +19,9 @@ var createPolitician = function(name, partyColor)
   return politician;
 };
 
-var jane = createPolitician("Jane Doesitall", [132, 17, 11]);
+var jane = createPolitician("Jane Doesitall", [16, 138, 42]);
 
-var betsy = createPolitician("Betsy Rocks", [245, 141, 136]);
+var betsy = createPolitician("Betsy Rocks", [32, 35, 218]);
 
 var winner = "???";
 
@@ -55,7 +55,7 @@ var setStateResults = function (state) {
   if (stateWinner != null) {
     theStates[state].rgbColor = stateWinner.partyColor;
   } 
-  else {theStates[state].rgbColor = [11, 32, 57];
+  else {theStates[state].rgbColor = [18, 161, 130];
        }
   
   var stateInfoTable = document.getElementById('stateResults');
